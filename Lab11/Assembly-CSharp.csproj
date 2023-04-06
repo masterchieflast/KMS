@@ -56,13 +56,14 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scenes\Mooving\ScriptPosition.cs" />
-    <Compile Include="Assets\Scenes\Rotation\Rotation_Rotate.cs" />
-    <Compile Include="Assets\Scenes\Rotation\Rotation_Euler.cs" />
-    <Compile Include="Assets\Scenes\Rotation\Rotation_Quaternion.cs" />
-    <Compile Include="Assets\Scenes\Scaling\ScriptScale.cs" />
-    <Compile Include="Assets\Scenes\UsingKeys\Move_Key.cs" />
-    <Compile Include="Assets\Scenes\ConstantsMotion\Input_GetAxis.cs" />
+    <Compile Include="Assets\Scenes\Stage1\Mooving\ScriptPosition.cs" />
+    <Compile Include="Assets\Scenes\Stage1\ConstantsMotion\Input_GetAxis.cs" />
+    <Compile Include="Assets\Scenes\Stage1\Scaling\ScriptScale.cs" />
+    <Compile Include="Assets\Scenes\Stage1\Rotation\Rotation_Quaternion.cs" />
+    <Compile Include="Assets\Scenes\Stage1\Rotation\Rotation_Rotate.cs" />
+    <Compile Include="Assets\Scenes\Stage1\UsingKeys\Move_Key.cs" />
+    <Compile Include="Assets\Scenes\Stage1\Rotation\Rotation_Euler.cs" />
+    <Compile Include="Assets\Scenes\Stage2\Cubes\SpawnCube.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
